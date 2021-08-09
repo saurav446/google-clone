@@ -1,0 +1,93 @@
+.searchPage__header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    align-items: flex-start;
+    padding: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.searchPage__log{
+    object-fit:contain;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.searchPage__headerBody > .search > .search__input {
+    margin-top: 0;
+    width: 100%;
+    margin: unset;
+    max-width: unset;
+}
+
+.searchPage__options{
+    display: flex;
+    align-items: center; 
+    margin: 0px 20px !important; 
+}
+
+.serachPage__link  a{  
+    margin: -22px 0px !important;
+}
+.search__optionsRight,
+.search__optionsLeft{
+    display: flex; 
+} 
+
+.search__optionsLeft a{
+    text-decoration: none;
+    
+    color: gray !important; 
+}
+.MuiSvgIcon-root {  
+    color: gray !important;
+}
+
+.search__optionsRight{
+    margin-left: 80px;
+}
+ 
+
+.searchPage__result{
+    margin: 40px 0;
+    font-size: 14px;
+}
+
+.seacrhPage__results{
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-bottom: 100px;
+
+}
+
+.searchPage__result__title h2{
+    font-weight: 500;
+}
+
+.searchPage__result__title{
+    text-decoration: none;
+}
+.searchPage__result__title:hover{
+    text-decoration: underline;
+}
+
+
+.searchPage__result__Snippet{
+    margin-top: 5px;
+}
+.seacrh__res__img{
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
